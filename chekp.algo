@@ -1,0 +1,23 @@
+ALGORITHM chekp
+VAR
+    ch : char ;
+    num : integer:=0;
+    numv : integer:=0;
+
+BEGIN
+
+WHILE (ch <> "." ) DO
+ if(ch <> " "  ){
+    num++; }
+
+  else if(ch IN ["a","e","i","o","u"] ){
+           numv++; }
+      END_IF
+ END_WHILE
+
+ write(num)
+ write(numv)
+
+ END
+    
+ 
